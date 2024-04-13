@@ -1,23 +1,25 @@
 
-# FullCalendar Next.js 13 Example
+# FullCalendar React+TypeScript Example Project
 
-FullCalendar works well with the React framework [Next.js](https://nextjs.org/)
+An example project showing how [FullCalendar's React Connector](https://fullcalendar.io/docs/react) can be used with [TypeScript](https://www.typescriptlang.org/).
 
 
 ## Installation
 
 ```bash
 git clone https://github.com/fullcalendar/fullcalendar-examples.git
-cd fullcalendar-examples/next13
+cd fullcalendar-examples/react-typescript
 npm install
 ```
 
 
 ## Build Commands
 
-```
-npm run dev # watch and rebuild while developing
-npm run build # build for production
-npm run start # run the production build
-npm run lint # lint source files
+```bash
+npm run start # builds and opens a web browser
+
+# other commands:
+npm run build # builds files into dist/ directory
+npm run watch # same as build, but watches for changes
+npm run clean # start fresh
 ```
